@@ -7,7 +7,7 @@
 string[] arr1 = new string[8] 
 { "hello", "2", "123", "world", "Russia", "-2", "Denmark", "Kazan" };
 string[] arr2 = new string[arr1.Length];
-void SecondArrayWithIF(string[] arr1, string[] arr2)
+void SecondArray(string[] arr1, string[] arr2)
 {
     int count = 0;
     for (int i = 0; i < arr1.Length; i++)
@@ -27,7 +27,7 @@ void PrintArray(string[] array)
     }
     Console.WriteLine();
 }
-SecondArrayWithIF(arr1, arr2);
+SecondArray(arr1, arr2);
 PrintArray(arr2);
 
 
